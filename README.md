@@ -1,5 +1,11 @@
 # AndSql
 
+效果图：
+
+![](https://github.com/sunlianglong/AndSql/raw/master/imgs/sql1.png)  
+
+![](https://github.com/sunlianglong/AndSql/raw/master/imgs/sql2.png) 
+
 SQLiteOpenHelper抽象类
 - 含有两个抽象方法：onCreate()方法和onUpgrade()方法 需要重写，并在这两个方法中去创建升级数据库
 - 含有两个重要的实例方法：getReadableDatabase()和getWritableDatabase() 这两个方法都可以创建或打开一个现有的数据库（如果数据库已存在则直接打开，否则创建一个新的数据库），并返回一个可对数据库进行读写操作的对象
